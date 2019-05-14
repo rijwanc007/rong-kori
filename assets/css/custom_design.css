@@ -1,0 +1,40 @@
+body{
+    margin:0px;
+    padding:0px;
+    outline:none;
+    overflow-x: hidden;
+}
+.header-top-bar-container {
+    background-color: #F5F5F5;
+}
+.ul_design
+{
+    display:flex;
+    list-style:none;
+    padding-top: 8px;
+}
+.ul_design>li{
+    color: #AAA;
+    padding-right: 5px;
+}
+.span_padding{
+    padding-left: 8px
+}
+.col-sm-1>.ul_design>li>img{
+     padding-right: 10px;
+     cursor: pointer;
+     height:24px;
+ }
+.font_awesome_icon{
+    height:24px;
+    cursor: pointer;
+}
+.logo_design{
+    height: 60px;
+    margin-top: 10px;
+}
+.text-color{
+    color:#39C4D7;
+}
+
+
