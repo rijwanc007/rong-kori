@@ -42,10 +42,10 @@ body{
     margin-top:-5px;
 }
 .service_design{
-    border:2px solid #AAA;
-    border-top-left-radius: 1em;
-    border-bottom-right-radius: 1em;
-    padding:50px;
+    border:1px solid #AAA;
+    /*border-top-left-radius: 1em;*/
+    /*border-bottom-right-radius: 1em;*/
+    padding:40px;
     color:#372C77;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -53,6 +53,14 @@ body{
 .background_color{
     background-color:#F5F5F5;
     padding-top: 10px;
+}
+.service_icon{
+    height: 60px;
+    width: 60px;
+}
+.service_design>span{
+    margin-left: 5px;
+    margin-top: 15px;
 }
 
 
