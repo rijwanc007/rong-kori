@@ -36,5 +36,25 @@ body{
 .text-color{
     color:#39C4D7;
 }
+.hr_design{
+    width:200px;
+    border:1px solid #39C4D7;
+    margin-top:-5px;
+}
+.service_design{
+    border:2px solid #AAA;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding:50px;
+    color:#372C77;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.background_color{
+    background-color:#F5F5F5;
+    padding-top: 10px;
+}
+
+
 
 

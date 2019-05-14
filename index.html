@@ -10,22 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/drop_down.css"/>
     <link href="assets/css/skdslider.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="assets/js/jquery_3.4.1.js"></script>
-    <script src="assets/js/skdslider.min.js"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function(){
-            jQuery('#demo1').skdslider({
-                slideSelector: '.slide',
-                delay:5000,
-                animationSpeed:2000,
-                showNextPrev:true,
-                showPlayButton:true,
-                autoSlide:true,
-                animationType:'fading'
-            });
-        });
-    </script>
 </head>
 <body>
 <div class="header-top-bar-container">
@@ -81,7 +66,7 @@
     </ul>
 </nav>
 </div>
-<div id="demo1">
+<div id="slider">
     <div class="slide">
         <img src="assets/picture/slider_image/interior_design.png" />
         <div class="slide-desc">
@@ -118,13 +103,28 @@
         </div>
     </div>
 </div>
-<div class="container">
+<div >
     <div class="row">
-        <div class="col-md-12 text-center"><h3 class="text_color" style="color:#39C4D7;">Services</h3></div>
-        <div class="col-md-1 offset-md-5 text-center" style="border: 1px solid #AAA;"></div>
+        <div class="col-md-12 text-center"><h3 class="text_color" style="color:#AAA">Services</h3><hr class="hr_design"></div>
     </div>
-    <div>rijwan</div>
+    <div class="row background_color flip3D">
+            <div class="col-md-2 service_design offset-md-1">Consultancy</div>
+            <div class="col-md-2 service_design">Interior Design</div>
+            <div class="col-md-2 service_design">Interior Paint</div>
+            <div class="col-md-2 service_design">Exterior Design</div>
+            <div class="col-md-2 service_design">Exterior Paint</div>
+            <div class="col-md-2 service_design offset-md-1">Landscaping</div>
+            <div class="col-md-2 service_design">Wood & Metal Paint</div>
+            <div class="col-md-2 service_design">Industrial Paint</div>
+            <div class="col-md-2 service_design">Commercial Paint</div>
+            <div class="col-md-2 service_design">Wallpaper</div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-center"><h3 class="text_color" style="color:#AAA">Scheme</h3><hr class="hr_design"></div>
+    </div>
 </div>
+
 </body>
+<script src="assets/js/skdslider.min.js"></script>
 <script type="text/javascript" src="assets/js/custom_script.js"></script>
 </html>
