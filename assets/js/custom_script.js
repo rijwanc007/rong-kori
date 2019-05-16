@@ -1,6 +1,27 @@
 function _(x){
     return document.getElementById(x);
 }
+_('offer_status').style.display = 'block';
+_('grantee_status').style.display = 'none';
+_('standard_status').style.display = 'none';
+$(document).on('click','.offer_icon',function(){
+    var id = $(this).data('id');
+    if(id == 'grantee'){
+        _('offer_status').style.display = 'none';
+        _('grantee_status').style.display = 'block';
+        _('standard_status').style.display = 'none';
+    }
+    else if(id == 'provide'){
+        _('offer_status').style.display = 'none';
+        _('grantee_status').style.display = 'none';
+        _('standard_status').style.display = 'block';
+    }
+    else{
+        _('offer_status').style.display = 'block';
+        _('grantee_status').style.display = 'none';
+        _('standard_status').style.display = 'none';
+    }
+});
 jQuery(document).ready(function(){
     jQuery('#slider').skdslider({
         slideSelector: '.slide',
@@ -50,3 +71,25 @@ function slideRight(event){
     rowcont.style.marginLeft = right+"px";
 }
 window.onload=setWidth;
+$(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
