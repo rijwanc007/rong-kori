@@ -1,0 +1,24 @@
+.ab_content img{
+    height: 80px;
+    width: 80px;
+    margin-bottom: -20px;
+    z-index: 22;
+    background: #fff;
+}
+.ab_content h4{
+    text-align: center;
+}
+.main_ab{
+    padding: 10px 10px;
+}
+.ab_content h2{
+    border: 2px solid slateblue;
+    padding: 50px 0px;
+    text-align: center;
+    font-size: 32px;
+    color: slateblue;
+}
+.ab_content span{
+    font-size: 24px;
+    color: #AAA;
+}

@@ -1,0 +1,39 @@
+.contact_img{
+    width: 100%;
+    background: url(../picture/service/interior_1.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.contact_img img{
+    width: 100%;
+}
+.con_det{
+    display: flex;
+    flex-direction: column;
+}
+.contact_form h4{
+    text-align: center;
+    color: #AAA;
+    margin: 10px 0;
+}
+.con_det img{
+    height: 40px;
+    width: 40px;
+}
+.con_det{
+     justify-content: center;
+  align-items: center;
+}
+.con_det h2{
+    color: #AAA;
+    font-size: 16px;
+}
+.con_det h3{
+    color: slategray;
+    font-size: 17px;
+    text-align: center;
+    font-weight: lighter;
+}
+.my_input{
+    background: #fff!important;
+}

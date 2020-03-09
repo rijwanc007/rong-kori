@@ -1,0 +1,65 @@
+.service_heading{
+    text-align: center;
+    padding: 60px 0px;
+    background: url(../picture/service/service_bg.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: slateblue;
+}
+.service_heading h1{
+    font-size: 56px;
+}
+.service_content{
+    padding: 40px 0;
+}
+.srvice_con_img{
+    width: 100%;
+    padding: 20px 30px;
+}
+.srvice_con_img img{
+    width: 100%;
+}
+.ser_con_left{
+    padding: 0 20px;
+}
+.ser_con_left h1{
+    color: slateblue;
+    padding-bottom: 20px
+}
+.ser_con_left p{
+    color: #6f6f6f;
+}
+.service_pro_heading{
+    text-align: center;
+}
+.service_pro_heading h1{
+    color: #39C4D7;
+    padding-bottom: 20px
+}
+.main_s_c_p{
+    padding-top: 20px;
+    width: 100%;
+}
+.s_p_content{
+    width: 100%;
+    padding: 10px 10px;
+}
+.s_p_content img{
+    width: 100%;
+}
+.s_p_content h2{
+    color: slateblue;
+    padding: 5px 0;
+}
+.s_p_content p{
+    color: #AAA;
+    margin-bottom: 10px;
+}
+.s_p_content a{
+    border: 2px solid #AAA;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.s_p_content a:hover{
+    border: 2px solid #39C4D7;
+}
